@@ -52,9 +52,7 @@ export default function SelectSmall({
           value={state[index][name]}
         >
           {dataSelect.map((data) => (
-            <MenuItem key={data.value} value={data.value} text={data.text}>
-              {data.text}
-            </MenuItem>
+            <MenuItem value={data.value}>{data.text}</MenuItem>
           ))}
         </Select>
       </FormControl>

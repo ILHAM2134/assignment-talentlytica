@@ -36,7 +36,7 @@ export interface Data {
   ap4: string | number;
 }
 
-var row = [];
+var row: Data[] = [];
 
 for (let i = 1; i <= 10; i++) {
   var rowItem = {
